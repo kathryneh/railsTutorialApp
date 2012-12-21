@@ -10,6 +10,7 @@ group :development, :test do
 	gem 'guard-spork', '1.2.0' #involved in testing
 	gem 'spork', '0.9.2' #involved in testing
 	gem 'rb-fsevent', '~> 0.9.1'
+	gem 'factory_girl_rails', '4.1.0'
 end
 
 group :development do
