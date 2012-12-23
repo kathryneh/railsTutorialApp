@@ -1,0 +1,4 @@
+Host heroku.personal
+  HostName heroku.com
+  IdentityFile /PATH/TO/PRIVATE/KEY
+  IdentitiesOnly yes
