@@ -3,6 +3,7 @@ source 'https://rubygems.org'
 gem 'rails', '3.2.9'
 gem 'bootstrap-sass', '2.1' #involved in visuals and bootstrap
 gem 'bcrypt-ruby', '3.0.1'
+gem "paperclip", "~> 3.0"
 
 group :development, :test do
 	gem 'sqlite3', '1.3.5'
@@ -29,6 +30,8 @@ gem 'jquery-rails', '2.0.2'
 
 group :test do
 	gem 'capybara', '1.1.2' #acceptance test framework
+	gem 'cucumber-rails', '1.2.1', :require => false
+  	gem 'database_cleaner', '0.7.0'
 end
 
 group :production do
